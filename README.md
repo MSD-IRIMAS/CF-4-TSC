@@ -13,16 +13,24 @@ This work was done by [Ali Ismail-Fawaz](https://hadifawaz1999.github.io/), [Max
 
 ### Architecture 1: Custom Only Fully Convolutional Network (CO-FCN)
 
-![CO-FCN](images/CO-FCN.png)
+<p align="center">
+  <img src="images/CO-FCN.png" />
+</p>
+
 
 ### Architecture 2: Hybrid Fully Convolutional Network (H-FCN)
 
-![H-FCN](images/H-FCN.png)
+<p align="center">
+  <img src="images/H-FCN.png" />
+</p>
 
 ### Architecture 3: Hybrid Inception (H-Inception) and Hybrid InceptionTime (H-InceptionTime)<br>
 Note: H-InceptionTime is an ensemble of five H-Inception models, such as in [H. Ismail Fawaz et al.](https://github.com/hfawaz/InceptionTime)
 
-![H-Inception](images/H-Inception.png)
+<p align="center">
+  <img src="images/H-Inception.png" />
+</p>
+
 
 ## Usage of code
 
@@ -39,27 +47,38 @@ This file takes as arguments the following:<br>
 
 ### CO-FCN -- see [results csv](results/CO-FCN/results_UCR_128.csv) on the 128 datasets of the [UCR Archive](https://www.cs.ucr.edu/~eamonn/time_series_data/)
 
-<p align="center" width="100%">
-<img src="images/results_cofcn.png" alt="results_cofcn" width="50%"/>
+<p align="center">
+  <img style="height: auto; width: 300px" src="images/results_cofcn.png" />
 </p>
+
 
 ### H-FCN -- see [results csv](results/H-FCN/results_UCR_128.csv) on the 128 datasets of the [UCR Archive](https://www.cs.ucr.edu/~eamonn/time_series_data/)
 
 
-![results_hfcn](images/results_hfcn.png)
+<p align="center">
+  <img style="height: auto; width: 600px" src="images/results_hfcn.png" />
+</p>
 
 ### H-Inception -- see [results csv](results/H-Inception/results_UCR_128.csv) on the 128 datasets of the [UCR Archive](https://www.cs.ucr.edu/~eamonn/time_series_data/)
 
 
-![results_hinception](images/results_hinception.png)
+<p align="center">
+  <img style="height: auto; width: 600px" src="images/results_hinception.png" />
+</p>
 
 ## Critical Difference Diagram, using the code of [H. Ismail Fawaz et al.](https://github.com/hfawaz/cd-diagram)
 
-![cd-diagram](images/cd-diagram.png)
+<p align="center">
+  <img style="height: auto; width: 600px" src="images/cd-diagram.png" />
+</p>
+
 
 ## Matrix 1v1 Comparison
 
-![matrix](images/heatmap.png)
+<p align="center">
+  <img style="height: auto; width: 900px" src="images/heatmap.png" />
+</p>
+
 
 ## Requirements
 
