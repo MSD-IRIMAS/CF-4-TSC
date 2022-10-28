@@ -6,7 +6,9 @@ This work was done by [Ali Ismail-Fawaz](https://hadifawaz1999.github.io/), [Max
 ## Summary of proposed custom filters
 
 ![summary](images/summary.png)
+<p align="center" width="100%">
 <img src="images/summary.png" alt="summary" width="50%"/>
+</p>
 
 ## Architectures:
 
