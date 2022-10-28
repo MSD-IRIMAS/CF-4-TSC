@@ -1,7 +1,7 @@
 # Deep Learning For Time Series Classification Using New Hand-Crafted Convolution Filters
 
 This is the code of our paper "Deep Learning For Time Series Classification Using New Hand-Crafted Convolution Filters" accepted as a regular paper at [2022 IEEE Internation Conference on Big Data](https://bigdataieee.org/BigData2022/).<br>
-This work was done by [Ali Ismail-Fawaz](https://hadifawaz1999.github.io/), [Maxime Devanne](http://maxime-devanne.com/), [Jonathan Weber](https://www.jonathan-weber.eu/) and [Germain Forestier](https://germain-forestier.info/).
+This work was done by [Ali Ismail-Fawaz](https://hadifawaz1999.github.io/), [Maxime Devanne](https://maxime-devanne.com/), [Jonathan Weber](https://www.jonathan-weber.eu/) and [Germain Forestier](https://germain-forestier.info/).
 
 ## Summary of proposed custom filters
 
@@ -59,6 +59,6 @@ This file takes as arguments the following:<br>
 
 ## Requirements
 
-For a ```conda``` environment see [reuirement file](requirements_conda.txt)<br>
+For a ```conda``` environment see [requirement file](requirements_conda.txt)<br>
 
-For a ```pip``` environment see [reuirement file](requirement_pip.txt )<br>
+For a ```pip``` environment see [requirement file](requirement_pip.txt )<br>
