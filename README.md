@@ -5,7 +5,6 @@ This work was done by [Ali Ismail-Fawaz](https://hadifawaz1999.github.io/), [Max
 
 ## Summary of proposed custom filters
 
-![summary](images/summary.png)
 <p align="center" width="100%">
 <img src="images/summary.png" alt="summary"/>
 </p>
@@ -41,6 +40,9 @@ This file takes as arguments the following:<br>
 ### CO-FCN -- see [results csv](results/CO-FCN/results_UCR_128.csv) on the 128 datasets of the [UCR Archive](https://www.cs.ucr.edu/~eamonn/time_series_data/)
 
 ![results_cofcn](images/results_cofcn.png)
+<p align="center" width="100%">
+<img src="images/results_cofcn.png" alt="results_cofcn" width="50%"/>
+</p>
 
 ### H-FCN -- see [results csv](results/H-FCN/results_UCR_128.csv) on the 128 datasets of the [UCR Archive](https://www.cs.ucr.edu/~eamonn/time_series_data/)
 
