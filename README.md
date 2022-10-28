@@ -23,7 +23,7 @@ Note: H-InceptionTime is an ensemble of five H-Inception models, such as in [H. 
 
 ## Usage of code
 
-In order to run an experiment on a dataset of the [UCR Archive]() with a specific classifier of three proposed above, simply run the ```main.py``` file. <br>
+In order to run an experiment on a dataset of the [UCR Archive](https://www.cs.ucr.edu/~eamonn/time_series_data/) with a specific classifier of three proposed above, simply run the ```main.py``` file. <br>
 This file takes as arguments the following:<br>
 ```
 --dataset : The dataset to be used, by default "Coffee" is used<br>
@@ -34,19 +34,21 @@ This file takes as arguments the following:<br>
 
 ## Results
 
-### CO-FCN -- see [results csv](results/CO-FCN/results_UCR_128.csv) on the 128 datasets of the UCR Archive
+### CO-FCN -- see [results csv](results/CO-FCN/results_UCR_128.csv) on the 128 datasets of the [UCR Archive](https://www.cs.ucr.edu/~eamonn/time_series_data/)
 
 ![results_cofcn](images/results_cofcn.png)
 
-### H-FCN -- see [results csv](results/H-FCN/results_UCR_128.csv) on the 128 datasets of the UCR Archive
+### H-FCN -- see [results csv](results/H-FCN/results_UCR_128.csv) on the 128 datasets of the [UCR Archive](https://www.cs.ucr.edu/~eamonn/time_series_data/)
+
 
 ![results_hfcn](images/results_hfcn.png)
 
-### H-Inception -- see [results csv](results/H-Inception/results_UCR_128.csv) on the 128 datasets of the UCR Archive
+### H-Inception -- see [results csv](results/H-Inception/results_UCR_128.csv) on the 128 datasets of the [UCR Archive](https://www.cs.ucr.edu/~eamonn/time_series_data/)
+
 
 ![results_hinception](images/results_hinception.png)
 
-## Critical Difference Diagram, using the code of [H. Ismail Fawaz et al.]()
+## Critical Difference Diagram, using the code of [H. Ismail Fawaz et al.](https://github.com/hfawaz/cd-diagram)
 
 ![cd-diagram](images/cd-diagram.png)
 
