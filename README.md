@@ -7,7 +7,7 @@ This work was done by [Ali Ismail-Fawaz](https://hadifawaz1999.github.io/), [Max
 
 ![summary](images/summary.png)
 <p align="center" width="100%">
-<img src="images/summary.png" alt="summary" width="50%"/>
+<img src="images/summary.png" alt="summary"/>
 </p>
 
 ## Architectures:
