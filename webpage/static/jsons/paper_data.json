@@ -1,0 +1,36 @@
+{
+	"title": "Deep Learning For Time Series Classification Using New Hand-Crafted Convolution Filters",
+	"authors": [
+		{
+			"name": "Ali Ismail-Fawaz",
+			"link": "https://hadifawaz1999.github.io",
+			"institution_id": "1"
+		},
+		{
+			"name": "Maxime Devanne",
+			"link": "https://maxime-devanne.com/",
+			"institution_id": "1"
+		},
+		{
+			"name": "Jonathan Weber",
+			"link": "https://www.jonathan-weber.eu/",
+			"institution_id": "1"
+		},
+		{
+			"name": "Germain Forestier",
+			"link": "https://germain-forestier.info/",
+			"institution_id": "1"
+		}
+	],
+	"institutions": ["Université de Haute-Alsace, Mulhouse, France"],
+	"pdf_link": "https://maxime-devanne.com/publis/ismail-fawaz_BigData2022.pdf",
+	"doi_link": "",
+	"slides_link": "",
+	"code_link": "https://github.com/MSD-IRIMAS/CF-4-TSC",
+	"webpage_code": "https://github.com/MSD-IRIMAS/CF-4-TSC/tree/main/webpage",
+	"abstract": "<p>In this work, we explore the creation of hand-crafted (non learned) filters in order to capture specific patterns in a time series. We propose a set of filters whose values are fixed and not modified during the training step. Our goal with these filters is to capture specific patterns in a time series (increase, decrease, peaks) and study the relevance of adding such filters to existing architectures ranging from simple architecture (Fully Convolutional Network (FNC)) to state-of-the-art architecture (InceptionTime).</p><p>Experiments reveal that adding our manually created filters increase the prediction accuracy on a majority of the 128 datasets of the UCR Archive. They also show that hand-crafted filters and learned filters are complementary to obtain the best preforming models. This work is the first step in proposing a catalog of generic and fixed filters that could be useful in a large range of applications to improve deep models accuracy for time series classification.</p>",
+	"image_overview": "./static/images/summary.png",
+	"caption_overview": "Three hand-crafted filters detecting: (1) increasing trends, (2) decreasing trends and (3) peaks in a time series",
+	"external_htmls": ["results.html"],
+	"acknowledgment": "This work was supported by the ANR DELEGATION project (grant ANR-21-CE23-0014) of the French Agence Nationale de la Recherche. The authors would like to acknowledge the High Performance Computing Center of the University of Strasbourg for supporting this work by providing scientific support and access to computing resources. Part of the computing resources were funded by the Equipex Equip@Meso project (Programme Investissements d'Avenir) and the CPER Alsacalcul/Big Data. The authors would also like to thank the creators and providers of the UCR Archive."
+}
