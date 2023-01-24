@@ -45,7 +45,7 @@ This file takes as arguments the following:<br>
 --output-directory : The output directory, by default the output is saved into 'results/'
 ```
 
-# Adaptation of code
+### Adaptation of code
 
 The change that should be done is the directory in which the datasets are stored.<br>
 The variable to be changed is [in this line](https://github.com/MSD-IRIMAS/CF-4-TSC/blob/4acebb612786c43d4f72d4c3de3b0d97667c0625/utils/utils.py#L12) ```folder_path```.
