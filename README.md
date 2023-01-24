@@ -87,3 +87,21 @@ This file takes as arguments the following:<br>
 For a ```conda``` environment see [requirement file](requirements_conda.txt)<br>
 
 For a ```pip``` environment see [requirement file](requirement_pip.txt )<br>
+
+## Reference
+
+If you use this code, please cite our paper:<br>
+
+```
+@inproceedings{ismail-fawaz2022hccf,
+  author = {Ismail-Fawaz, Ali and Devanne, Maxime and Weber, Jonathan and Forestier, Germain},
+  title = {Deep Learning For Time Series Classification Using New Hand-Crafted Convolution Filters},
+  booktitle = {2022 IEEE International Conference on Big Data (IEEE BigData 2022)},
+  city = {Osaka},
+  country = {Japan},
+  pages = {1--8},
+  url = {undefined},
+  year = {2022},
+  organization = {IEEE}
+}
+```
