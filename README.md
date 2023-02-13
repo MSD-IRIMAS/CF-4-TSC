@@ -104,8 +104,8 @@ If you use this code, please cite our paper:<br>
   booktitle = {2022 IEEE International Conference on Big Data (IEEE BigData 2022)},
   city = {Osaka},
   country = {Japan},
-  pages = {1--8},
-  url = {undefined},
+  pages = {972-981},
+  url = {doi.org/10.1109/BigData55660.2022.10020496},
   year = {2022},
   organization = {IEEE}
 }
