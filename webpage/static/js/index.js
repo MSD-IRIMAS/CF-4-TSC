@@ -45,18 +45,14 @@ $(document).ready(function() {
     
     preloadImages();
 
-    $('#hfcn-slider').on('input', function(event) {
-      setHFCNImage(this.value);
+    $('#hfcn-vs').click(function(event) {
+      setHFCNImage($('input:radio[name=hfcn-vs-choice]:checked').val());
     });
     setHFCNImage(0);
-    $('#hfcn-slider').prop('max', NUM_IMG_HFCN - 1);
 
-    $('#hinception-slider').on('input', function(event) {
-      setHINCEPTIONImage(this.value);
+    $('#hinception-vs').click(function(event) {   
+      setHINCEPTIONImage($('input:radio[name=hinception-vs-choice]:checked').val());
     });
     setHINCEPTIONImage(0);
-    $('#hinception-slider').prop('max', NUM_IMG_HINCEPTION - 1);
-
-    bulmaSlider.attach();
 
 })
