@@ -34,9 +34,19 @@
             <div>
               Comparison with: <span id="name-sota-hfcn"></span>
             </div>
-            <input class="slider is-fullwidth is-large is-info"
-                   id="hfcn-slider"
-                   step="1" min="0" max="3" value="0" type="range">
+            <div id="hfcn-vs" style="text-align:center;">
+              <input type="radio" id="hfcn-vs-choice1" name="hfcn-vs-choice" value=0 checked />
+              <label for="hfcn-vs-choice1">FCN</label>
+              &emsp;&emsp;
+              <input type="radio" id="hfcn-vs-choice2" name="hfcn-vs-choice" value=1 />
+              <label for="hfcn-vs-choice2">ResNet</label>
+              &emsp;&emsp;
+              <input type="radio" id="hfcn-vs-choice3" name="hfcn-vs-choice" value=2 />
+              <label for="hfcn-vs-choice3">Inception</label>
+              &emsp;&emsp;
+              <input type="radio" id="hfcn-vs-choice4" name="hfcn-vs-choice" value=3 />
+              <label for="hfcn-vs-choice4">InceptionTime</label>
+            </div>
           </div>
           <div class="column is-2"></div>
         </div>
@@ -74,9 +84,16 @@
             <div>
               Comparison with: <span id="name-sota-hinception"></span>
             </div>
-            <input class="slider is-fullwidth is-large is-info"
-                   id="hinception-slider"
-                   step="1" min="0" max="3" value="0" type="range">
+            <div id="hinception-vs" style="text-align:center;">
+              <input type="radio" id="hinception-vs-choice1" name="hinception-vs-choice" value=0 checked />
+              <label for="hinception-vs-choice1">Inception</label>
+              &emsp;&emsp;
+              <input type="radio" id="hinception-vs-choice2" name="hinception-vs-choice" value=1 />
+              <label for="hinception-vs-choice2">InceptionTime</label>
+              &emsp;&emsp;
+              <input type="radio" id="hinception-vs-choice3" name="hinception-vs-choice" value=2 />
+              <label for="hinception-vs-choice3">ROCKET</label>
+            </div>
           </div>
           <div class="column is-2"></div>
         </div>
