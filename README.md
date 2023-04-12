@@ -36,6 +36,22 @@ Note: H-InceptionTime is an ensemble of five H-Inception models, such as in [H. 
 
 ## Usage of code
 
+### DOCKER IMAGE
+
+Now you can use docker image to run the code instead of using pip or conda environments.
+
+To build the image run the following <br>
+
+```docker build -t IMAGE_NAME .```<br>
+
+To build and run the container with mounted directories for the data and the code, run the following: <br>
+
+```docker run --gpus all -it --name CONTAINER_NAME -v "$(pwd):/cf4tsc-code" -v "/path/to/ucr/on/your/pc:/ucr_archive" IMAGE_NAME bash```<br>
+
+This will open a shell where you can execute the code.
+
+### CODE EXECUTION
+
 In order to run an experiment on a dataset of the [UCR Archive](https://www.cs.ucr.edu/~eamonn/time_series_data/) with a specific classifier of three proposed above, simply run the ```main.py``` file. <br>
 This file takes as arguments the following:<br>
 ```
