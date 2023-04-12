@@ -9,7 +9,7 @@ def create_directory(directory_path):
 
 def load_data(file_name):
     
-    folder_path = "/home/hadi/datasets/UCRArchive_2018/"
+    folder_path = "/ucr_archive/"
     folder_path += (file_name + "/")
 
     train_path = folder_path + file_name + "_TRAIN.tsv"
