@@ -67,7 +67,7 @@ gnutls=3.6.13=h85f3911_1
 google-auth=2.6.0=pyhd3eb1b0_0
 google-auth-oauthlib=0.4.4=pyhd3eb1b0_0
 google-pasta=0.2.0=pyhd3eb1b0_0
-grpcio=1.42.0=py38hce63b2e_0
+grpcio=1.53.2=py38hce63b2e_0
 gst-plugins-base=1.14.0=hbbd80ab_1
 gstreamer=1.14.0=h28cd5cc_2
 h11=0.12.0=pyhd8ed1ab_0
