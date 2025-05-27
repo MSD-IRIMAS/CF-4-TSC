@@ -1,3 +1,23 @@
+> ⚠️ **Alert:** If you are using this code with **Keras v3**, make sure you are using **Keras ≥ 3.6.0**.  
+> Earlier versions of Keras v3 do not honor `trainable=False`, which will result in **training hand-crafted filters** in **CO-FCN** **H-FCN** and **H-Inception** unexpectedly.
+
+### Using [aeon-toolkit](https://github.com/aeon-toolkit/aeon) to Train a H-InceptionTime on your DATA
+
+When using aeon, simply load your data and create an instance of a InceptionTime classifier while specifyin the usage of hand-crafted filters and train it <br>
+
+```
+from aeon.datasets import load_classification
+from aeon.classification.deep_learning import InceptionTimeClassifier
+
+xtrain, ytrain, _ = load_classification(name="Coffee", split="train")
+xtest, ytest, _ = load_classification(name="Coffee", split="test")
+
+# using H-InceptionTime
+clf = InceptionTimeClassifier(n_classifiers=5, use_custom_filters=True)
+clf.fit(xtrain, ytrain)
+print(clf.score(xtest, ytest)
+```
+
 # Deep Learning For Time Series Classification Using New Hand-Crafted Convolution Filters
 
 This is the code of our paper "[Deep Learning For Time Series Classification Using New Hand-Crafted Convolution Filters](https://doi.org/10.1109/BigData55660.2022.10020496)" accepted as a regular paper at [2022 IEEE Internation Conference on Big Data](https://bigdataieee.org/BigData2022/).<br>
@@ -102,12 +122,6 @@ The variable to be changed is [in this line](https://github.com/MSD-IRIMAS/CF-4-
   <img style="height: auto; width: 900px" src="images/heatmap.png" />
 </p>
 
-
-## Requirements
-
-For a ```conda``` environment see [requirement file](requirements_conda.txt)<br>
-
-For a ```pip``` environment see [requirement file](requirement_pip.txt )<br>
 
 ## Reference
 
